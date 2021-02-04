@@ -19,6 +19,7 @@ public class Client {
 			{
 			case 1:
 				list=service.addEmployee(list);
+				System.out.println("Thank you for adding Employee");
 				break;
 			case 2:
 				list=service.updateEmployeeSalary(list);
